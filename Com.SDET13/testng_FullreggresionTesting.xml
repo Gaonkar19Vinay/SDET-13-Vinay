@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="Com.crm.vtiger.Tests.Tc26_EditingInformationToProduct_Test"/>
+      <class name="Com.crm.vtiger.Tests.Tc28_CreatingCustomerFilter_test"/>
+      <class name="Com.crm.vtiger.Tests.Tc29_CreatingCustomerFilterwithStandardFilter_Test"/>
+      <class name="Com.crm.vtiger.Tests.Tc30_CreatingCustomerFilterwithAdvanceFilter_Test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
